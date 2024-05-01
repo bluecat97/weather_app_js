@@ -9,9 +9,3 @@ export function eventOnElmts(elmts, event, callback) {
     elmt.addEventListener(event, callback);
   }
 }
-
-const a = document.querySelector('.current-weather .heading');
-
-a.addEventListener('click', () => {
-  a.classList.toggle('on');
-});
